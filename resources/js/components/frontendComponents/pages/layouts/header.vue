@@ -48,7 +48,7 @@
                 </li>
                 <template v-if="authenticated">
                   <li class="nav-item">
-                    <router-link index="4" class="nav-link" to="/dashboard">Dashboard</router-link>
+                    <router-link index="4" class="nav-link" to="/log_admin">Dashboard</router-link>
                   </li>
                   <li class="nav-item">
                     <router-link index="4" class="nav-link" to="#">Logout</router-link>

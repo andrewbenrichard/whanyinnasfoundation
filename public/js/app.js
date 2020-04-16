@@ -3970,12 +3970,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("footer mounted.");
@@ -64824,9 +64818,7 @@ var render = function() {
                   1
                 )
               ])
-            ]),
-            _vm._v(" "),
-            _vm._m(1)
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4 col-md-6 col-sm-6" }, [
@@ -64863,10 +64855,10 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _vm._m(2)
+      _vm._m(1)
     ]),
     _vm._v(" "),
-    _vm._m(3)
+    _vm._m(2)
   ])
 }
 var staticRenderFns = [
@@ -64916,55 +64908,39 @@ var staticRenderFns = [
               [_vm._v("info@whanyinnasfoundation.org")]
             )
           ])
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "contact-info-content" }, [
-      _c("h2", [
-        _c("a", { attrs: { href: "tel:+0881306298615" } }, [
-          _vm._v("+088 130 629 8615")
         ]),
         _vm._v(" "),
-        _c("span", [_vm._v("OR")]),
-        _vm._v(" "),
-        _c("a", { attrs: { href: "mailto:huruma@gmail.com" } }, [
-          _vm._v("huruma@gmail.com")
-        ])
-      ]),
-      _vm._v(" "),
-      _c("ul", { staticClass: "social" }, [
-        _c("li", [
-          _c("a", { attrs: { href: "#", target: "_blank" } }, [
-            _c("i", { staticClass: "flaticon-facebook" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { attrs: { href: "#", target: "_blank" } }, [
-            _c("i", { staticClass: "flaticon-twitter" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { attrs: { href: "#", target: "_blank" } }, [
-            _c("i", { staticClass: "flaticon-instagram" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { attrs: { href: "#", target: "_blank" } }, [
-            _c("i", { staticClass: "flaticon-linkedin" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { attrs: { href: "#", target: "_blank" } }, [
-            _c("i", { staticClass: "flaticon-pinterest" })
+        _c("div", { staticClass: "contact-info-content" }, [
+          _c("ul", { staticClass: "social" }, [
+            _c("li", [
+              _c("a", { attrs: { href: "#", target: "_blank" } }, [
+                _c("i", { staticClass: "flaticon-facebook" })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { href: "#", target: "_blank" } }, [
+                _c("i", { staticClass: "flaticon-twitter" })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { href: "#", target: "_blank" } }, [
+                _c("i", { staticClass: "flaticon-instagram" })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { href: "#", target: "_blank" } }, [
+                _c("i", { staticClass: "flaticon-linkedin" })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { href: "#", target: "_blank" } }, [
+                _c("i", { staticClass: "flaticon-pinterest" })
+              ])
+            ])
           ])
         ])
       ])
@@ -65221,7 +65197,7 @@ var render = function() {
                                   "router-link",
                                   {
                                     staticClass: "nav-link",
-                                    attrs: { index: "4", to: "/dashboard" }
+                                    attrs: { index: "4", to: "/log_admin" }
                                   },
                                   [_vm._v("Dashboard")]
                                 )

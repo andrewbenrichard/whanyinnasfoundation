@@ -86,7 +86,7 @@ export default {
     submit() {
       this.signIn(this.form)
         .then(() => {
-          window.location.href = "/dashboard";
+          location.href = "/dashboard";
         })
         .catch(() => {
           console.log("failed");

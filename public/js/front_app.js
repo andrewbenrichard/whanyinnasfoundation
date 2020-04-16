@@ -2153,6 +2153,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -3770,12 +3789,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("footer mounted.");
@@ -4017,7 +4030,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   }), {
     submit: function submit() {
       this.signIn(this.form).then(function () {
-        window.location.href = "/dashboard";
+        location.href = "/dashboard";
       })["catch"](function () {
         console.log("failed");
       });
@@ -42559,13 +42572,19 @@ var staticRenderFns = [
             _c("div", { staticClass: "team-item" }, [
               _c("div", { staticClass: "content" }, [
                 _c("img", {
-                  staticClass: "img-fluid",
+                  staticClass: "img-fluid team-image",
                   attrs: { src: "/public/assets/img/team/2.png", alt: "" }
                 }),
                 _vm._v(" "),
                 _c("h3", [_vm._v("Noah Olorunwa Shemede")]),
                 _vm._v(" "),
-                _c("span", [_vm._v("Founder and Executive Director")])
+                _c("span", [_vm._v("Founder and Executive Director")]),
+                _vm._v(" "),
+                _c("p", { staticClass: "team-p" }, [
+                  _vm._v(
+                    "\n                Mr. Noah Olorunwa Shemede has been responsible for providing oversight functions for the\n                management of the School for 9 years since inception. He provides strategic direction and\n                leadership for the management team and coordinates administration, logistics, and fundraising\n                activities as well as managing relationships with local and foreign institutional partners and\n                donors. He is currently enrolled in a sandwich programme in Economics Educationat the\n                Faculty of Arts and Social Science, University of Lagos.\n              "
+                  )
+                ])
               ])
             ])
           ]),
@@ -42574,7 +42593,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "team-item" }, [
               _c("div", { staticClass: "content" }, [
                 _c("img", {
-                  staticClass: "img-fluid",
+                  staticClass: "img-fluid team-image",
                   attrs: { src: "/public/assets/img/team/1.png", alt: "" }
                 }),
                 _vm._v(" "),
@@ -42583,6 +42602,12 @@ var staticRenderFns = [
                 _c("span", [
                   _vm._v(
                     "\n                Director of Strategic Initiatives and Special\n                Project\n              "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "team-p" }, [
+                  _vm._v(
+                    "\n                Mr. Emmanuel holds a Bachelor Degree in Agricultural Extension and Rural Development from\n                the University of Ibadan. He is a trained Development Knowledge Facilitator of the National\n                Youth Service Corps Sustainable Development Goals CDS, FCT-Abuja. He worked with\n                Armormax Nigeria, a division of the International Armoring Corporation headquartered in\n                USA. He has over 7 years’ experience in volunteering having volunteered with the Whanyinna\n                School and the UN SDGs Action Campaign before joining Whanyinna Children Foundation\n                where he is a Director and the Secretary to the Board of Trustees. He is currently with the\n                International Institute of Tropical Agriculture (IITA), Abuja Station as a Research Intern at the\n                Yam Improvement for Income and Food Security in West Africa (YIIFSWA) Unit.\n              "
                   )
                 ])
               ])
@@ -44349,9 +44374,7 @@ var render = function() {
                   1
                 )
               ])
-            ]),
-            _vm._v(" "),
-            _vm._m(1)
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4 col-md-6 col-sm-6" }, [
@@ -44388,10 +44411,10 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _vm._m(2)
+      _vm._m(1)
     ]),
     _vm._v(" "),
-    _vm._m(3)
+    _vm._m(2)
   ])
 }
 var staticRenderFns = [
@@ -44441,55 +44464,39 @@ var staticRenderFns = [
               [_vm._v("info@whanyinnasfoundation.org")]
             )
           ])
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "contact-info-content" }, [
-      _c("h2", [
-        _c("a", { attrs: { href: "tel:+0881306298615" } }, [
-          _vm._v("+088 130 629 8615")
         ]),
         _vm._v(" "),
-        _c("span", [_vm._v("OR")]),
-        _vm._v(" "),
-        _c("a", { attrs: { href: "mailto:huruma@gmail.com" } }, [
-          _vm._v("huruma@gmail.com")
-        ])
-      ]),
-      _vm._v(" "),
-      _c("ul", { staticClass: "social" }, [
-        _c("li", [
-          _c("a", { attrs: { href: "#", target: "_blank" } }, [
-            _c("i", { staticClass: "flaticon-facebook" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { attrs: { href: "#", target: "_blank" } }, [
-            _c("i", { staticClass: "flaticon-twitter" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { attrs: { href: "#", target: "_blank" } }, [
-            _c("i", { staticClass: "flaticon-instagram" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { attrs: { href: "#", target: "_blank" } }, [
-            _c("i", { staticClass: "flaticon-linkedin" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { attrs: { href: "#", target: "_blank" } }, [
-            _c("i", { staticClass: "flaticon-pinterest" })
+        _c("div", { staticClass: "contact-info-content" }, [
+          _c("ul", { staticClass: "social" }, [
+            _c("li", [
+              _c("a", { attrs: { href: "#", target: "_blank" } }, [
+                _c("i", { staticClass: "flaticon-facebook" })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { href: "#", target: "_blank" } }, [
+                _c("i", { staticClass: "flaticon-twitter" })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { href: "#", target: "_blank" } }, [
+                _c("i", { staticClass: "flaticon-instagram" })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { href: "#", target: "_blank" } }, [
+                _c("i", { staticClass: "flaticon-linkedin" })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { href: "#", target: "_blank" } }, [
+                _c("i", { staticClass: "flaticon-pinterest" })
+              ])
+            ])
           ])
         ])
       ])
@@ -44746,7 +44753,7 @@ var render = function() {
                                   "router-link",
                                   {
                                     staticClass: "nav-link",
-                                    attrs: { index: "4", to: "/dashboard" }
+                                    attrs: { index: "4", to: "/log_admin" }
                                   },
                                   [_vm._v("Dashboard")]
                                 )

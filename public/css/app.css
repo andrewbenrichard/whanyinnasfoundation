@@ -10914,3 +10914,50 @@ textarea#message {
   width: 100%;
 }
 
+.contact-info-content {
+  text-align: center;
+}
+
+ul.social {
+  padding-left: 0;
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+ul.social li {
+  display: inline-block;
+  margin: 0 1px;
+  padding-left: 0;
+}
+
+ul.social li a {
+  width: 35px;
+  height: 35px;
+  line-height: 34px;
+  border: 1px solid #dadada;
+  border-radius: 50%;
+  color: #aba5a5;
+  display: block;
+}
+
+.team-item .content {
+  background-color: #ffffff;
+  box-shadow: 1px 20px 30px rgba(0, 0, 0, 0.07);
+  padding: 11px;
+}
+
+img.img-fluid.team-image {
+  border-radius: 56%;
+  width: 200px;
+  height: 200px;
+}
+
+p.team-p {
+  color: #333;
+  text-align: justify;
+  font-weight: 600;
+  margin-top: 16px;
+  padding: 10px;
+}
+

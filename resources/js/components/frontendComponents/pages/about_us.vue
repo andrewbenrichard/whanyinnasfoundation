@@ -147,9 +147,17 @@
           <div class="col-lg-6 col-md-6 col-sm-6">
             <div class="team-item">
               <div class="content">
-                <img class="img-fluid" src="/public/assets/img/team/2.png" alt />
+                <img class="img-fluid team-image" src="/public/assets/img/team/2.png" alt />
                 <h3>Noah Olorunwa Shemede</h3>
                 <span>Founder and Executive Director</span>
+                <p class="team-p">
+                  Mr. Noah Olorunwa Shemede has been responsible for providing oversight functions for the
+                  management of the School for 9 years since inception. He provides strategic direction and
+                  leadership for the management team and coordinates administration, logistics, and fundraising
+                  activities as well as managing relationships with local and foreign institutional partners and
+                  donors. He is currently enrolled in a sandwich programme in Economics Educationat the
+                  Faculty of Arts and Social Science, University of Lagos.
+                </p>
               </div>
             </div>
           </div>
@@ -157,12 +165,23 @@
           <div class="col-lg-6 col-md-6 col-sm-6">
             <div class="team-item">
               <div class="content">
-                <img class="img-fluid" src="/public/assets/img/team/1.png" alt />
+                <img class="img-fluid team-image" src="/public/assets/img/team/1.png" alt />
                 <h3>Emmanuel Abiodun Oke</h3>
                 <span>
                   Director of Strategic Initiatives and Special
                   Project
                 </span>
+                <p class="team-p">
+                  Mr. Emmanuel holds a Bachelor Degree in Agricultural Extension and Rural Development from
+                  the University of Ibadan. He is a trained Development Knowledge Facilitator of the National
+                  Youth Service Corps Sustainable Development Goals CDS, FCT-Abuja. He worked with
+                  Armormax Nigeria, a division of the International Armoring Corporation headquartered in
+                  USA. He has over 7 years’ experience in volunteering having volunteered with the Whanyinna
+                  School and the UN SDGs Action Campaign before joining Whanyinna Children Foundation
+                  where he is a Director and the Secretary to the Board of Trustees. He is currently with the
+                  International Institute of Tropical Agriculture (IITA), Abuja Station as a Research Intern at the
+                  Yam Improvement for Income and Food Security in West Africa (YIIFSWA) Unit.
+                </p>
               </div>
             </div>
           </div>
