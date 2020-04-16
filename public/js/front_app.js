@@ -2806,7 +2806,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
-      paystackkey: "pk_test_6382db1bfccac4380925f4166400907ee4e464fd",
+      paystackkey: "pk_live_dad259b40b534405932e61ae31f1d55a46b05329",
       //paystack public key
       project: {
         id: "",
