@@ -2773,13 +2773,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -3791,6 +3784,10 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
+//
+//
+//
+//
 //
 //
 //
@@ -43174,7 +43171,8 @@ var render = function() {
                 _c("div", { staticClass: "causes-details-image" }, [
                   _c("img", {
                     attrs: {
-                      src: "/assets/img/donate/" + _vm.project.project_img,
+                      src:
+                        "/public/assets/img/donate/" + _vm.project.project_img,
                       alt: "image"
                     }
                   })
@@ -43197,7 +43195,7 @@ var render = function() {
                                   rawName: "v-model",
                                   value: _vm.form.first_name,
                                   expression:
-                                    "\n                                                        form.first_name\n                                                    "
+                                    "\n                                                          form.first_name\n                                                      "
                                 }
                               ],
                               staticClass: "form-control",
@@ -43423,7 +43421,7 @@ var render = function() {
                                     staticClass: "fas fa-money-bill-alt"
                                   }),
                                   _vm._v(
-                                    "\n                                                    Donate Now\n                                                    "
+                                    "\n                          Donate Now\n                          "
                                   ),
                                   _c("span")
                                 ]
@@ -44496,14 +44494,17 @@ var render = function() {
                   _c("img", {
                     staticClass: "white-logo",
                     attrs: {
-                      src: "/assets/img/Whanyinna logo trans (1).png",
+                      src: "/public/assets/img/Whanyinna logo trans (1).png",
                       alt: "logo"
                     }
                   }),
                   _vm._v(" "),
                   _c("img", {
                     staticClass: "black-logo",
-                    attrs: { src: "/assets/img/logo-2.png", alt: "image" }
+                    attrs: {
+                      src: "/public/assets/img/logo-2.png",
+                      alt: "image"
+                    }
                   })
                 ])
               ],
@@ -44525,12 +44526,18 @@ var render = function() {
                 [
                   _c("img", {
                     staticClass: "white-logo",
-                    attrs: { src: "/assets/img/logo_debug.png", alt: "logo" }
+                    attrs: {
+                      src: "/public/assets/img/logo_debug.png",
+                      alt: "logo"
+                    }
                   }),
                   _vm._v(" "),
                   _c("img", {
                     staticClass: "black-logo",
-                    attrs: { src: "/assets/img/logo_debug_2.png", alt: "image" }
+                    attrs: {
+                      src: "/public/assets/img/logo_debug_2.png",
+                      alt: "image"
+                    }
                   })
                 ]
               ),

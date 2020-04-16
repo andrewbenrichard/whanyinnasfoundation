@@ -4045,6 +4045,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
@@ -64965,14 +64969,17 @@ var render = function() {
                   _c("img", {
                     staticClass: "white-logo",
                     attrs: {
-                      src: "/assets/img/Whanyinna logo trans (1).png",
+                      src: "/public/assets/img/Whanyinna logo trans (1).png",
                       alt: "logo"
                     }
                   }),
                   _vm._v(" "),
                   _c("img", {
                     staticClass: "black-logo",
-                    attrs: { src: "/assets/img/logo-2.png", alt: "image" }
+                    attrs: {
+                      src: "/public/assets/img/logo-2.png",
+                      alt: "image"
+                    }
                   })
                 ])
               ],
@@ -64994,12 +65001,18 @@ var render = function() {
                 [
                   _c("img", {
                     staticClass: "white-logo",
-                    attrs: { src: "/assets/img/logo_debug.png", alt: "logo" }
+                    attrs: {
+                      src: "/public/assets/img/logo_debug.png",
+                      alt: "logo"
+                    }
                   }),
                   _vm._v(" "),
                   _c("img", {
                     staticClass: "black-logo",
-                    attrs: { src: "/assets/img/logo_debug_2.png", alt: "image" }
+                    attrs: {
+                      src: "/public/assets/img/logo_debug_2.png",
+                      alt: "image"
+                    }
                   })
                 ]
               ),
