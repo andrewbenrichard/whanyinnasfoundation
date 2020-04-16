@@ -1,4 +1,4 @@
-<script src="{{ URL::asset('js/front_app.js') }}"></script>
+<script src="{{ URL::asset('/public/js/front_app.js') }}"></script>
   <!-- Jquery Slim JS -->
     <script src="{{ URL::asset('/public/assets/js/jquery.min.js') }}"></script>
     <!-- Popper JS -->
