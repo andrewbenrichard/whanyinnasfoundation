@@ -43,9 +43,5 @@
     <script src="{{ URL::asset('assets/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
     <script src="{{ URL::asset('assets/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
     <script src="{{ URL::asset('assets/js/rev-slider-custom.js') }}"></script>
-<script>
-    $( document ).ready(function() {
-        console.log( "ready!" );
-    });
-    </script>
+
     
