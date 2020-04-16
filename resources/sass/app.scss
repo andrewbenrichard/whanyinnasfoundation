@@ -1,0 +1,45 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+$fa-font-path: "../webfonts";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.navbar-style-two .huruma-nav .navbar .navbar-nav .nav-item a:hover,
+.navbar-style-two .huruma-nav .navbar .navbar-nav .nav-item a:focus,
+.navbar-style-two
+    .huruma-nav
+    .navbar
+    .navbar-nav
+    .nav-item
+    .router-link-exact-active {
+    color: #ff6015;
+    position: relative;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.stats_card {
+    background-color: #fff;
+    padding: 45px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.stats_card > .header {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.stats_card > .title {
+    font-size: 16px;
+    font-weight: 600;
+}
+textarea#message {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
