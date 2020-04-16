@@ -6,8 +6,12 @@
           <div class="huruma-responsive-menu">
             <div class="logo">
               <router-link to="/">
-                <img src="/assets/img/Whanyinna logo trans (1).png" class="white-logo" alt="logo" />
-                <img src="/assets/img/logo-2.png" class="black-logo" alt="image" />
+                <img
+                  src="/public/assets/img/Whanyinna logo trans (1).png"
+                  class="white-logo"
+                  alt="logo"
+                />
+                <img src="/public/assets/img/logo-2.png" class="black-logo" alt="image" />
               </router-link>
             </div>
           </div>
@@ -18,8 +22,8 @@
         <div class="container">
           <nav class="navbar navbar-expand-md navbar-light">
             <router-link class="navbar-brand" to="/">
-              <img src="/assets/img/logo_debug.png" class="white-logo" alt="logo" />
-              <img src="/assets/img/logo_debug_2.png" class="black-logo" alt="image" />
+              <img src="/public/assets/img/logo_debug.png" class="white-logo" alt="logo" />
+              <img src="/public/assets/img/logo_debug_2.png" class="black-logo" alt="image" />
             </router-link>
             <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
               <ul class="navbar-nav">
