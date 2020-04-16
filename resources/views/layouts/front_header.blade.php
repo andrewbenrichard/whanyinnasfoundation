@@ -1,32 +1,32 @@
  <!-- Revolution Slider CSS -->
- <link rel="stylesheet" href="{{ asset('/assets/revolution/css/settings.css') }}" />
- <link rel="stylesheet" href="{{ asset('/assets/revolution/css/layers.css') }}" />
- <link rel="stylesheet" href="{{ asset('/assets/revolution/css/navigation.css') }}" />
+ <link rel="stylesheet" href="{{ asset('/public/assets/revolution/css/settings.css') }}" />
+ <link rel="stylesheet" href="{{ asset('/public/assets/revolution/css/layers.css') }}" />
+ <link rel="stylesheet" href="{{ asset('/public/assets/revolution/css/navigation.css') }}" />
 
  <!-- Owl Theme Default CSS -->
- <link rel="stylesheet" href="{{ asset('/assets/css/owl.theme.default.min.css') }}" />
+ <link rel="stylesheet" href="{{ asset('/public/assets/css/owl.theme.default.min.css') }}" />
  <!-- Owl Carousel CSS -->
- <link rel="stylesheet" href="{{ asset('/assets/css/owl.carousel.min.css') }}" />
+ <link rel="stylesheet" href="{{ asset('/public/assets/css/owl.carousel.min.css') }}" />
  <!-- Owl Magnific CSS -->
- <link rel="stylesheet" href="{{ asset('/assets/css/magnific-popup.css') }}" />
+ <link rel="stylesheet" href="{{ asset('/public/assets/css/magnific-popup.css') }}" />
  <!-- Animate CSS -->
- <link rel="stylesheet" href="{{ asset('/assets/css/animate.css') }}" />
+ <link rel="stylesheet" href="{{ asset('/public/assets/css/animate.css') }}" />
  <!-- Boxicons CSS -->
- <link rel="stylesheet" href="{{ asset('/assets/css/boxicons.min.css') }}" />
+ <link rel="stylesheet" href="{{ asset('/public/assets/css/boxicons.min.css') }}" />
  <!-- Flaticon CSS -->
- <link rel="stylesheet" href="{{ asset('/assets/css/flaticon.css') }}" />
+ <link rel="stylesheet" href="{{ asset('/public/assets/css/flaticon.css') }}" />
  <!-- Image Light Box CSS -->
- <link rel="stylesheet" href="{{ asset('/assets/css/imagelightbox.min.css') }}" />
+ <link rel="stylesheet" href="{{ asset('/public/assets/css/imagelightbox.min.css') }}" />
  <!-- Meanmenu CSS -->
- <link rel="stylesheet" href="{{ asset('/assets/css/meanmenu.css') }}" />
+ <link rel="stylesheet" href="{{ asset('/public/assets/css/meanmenu.css') }}" />
  <!-- Nice Select CSS -->
- <link rel="stylesheet" href="{{ asset('/assets/css/nice-select.css') }}" />
+ <link rel="stylesheet" href="{{ asset('/public/assets/css/nice-select.css') }}" />
  <!-- Odometer CSS-->
- <link rel="stylesheet" href="{{ asset('/assets/css/odometer.css') }}" />
+ <link rel="stylesheet" href="{{ asset('/public/assets/css/odometer.css') }}" />
  <!-- Style CSS -->
- <link rel="stylesheet" href="{{ asset('/assets/css/style.css') }}" />
+ <link rel="stylesheet" href="{{ asset('/public/assets/css/style.css') }}" />
  <!-- Responsive CSS -->
- <link rel="stylesheet" href="{{ asset('/assets/css/responsive.css') }}" />
+ <link rel="stylesheet" href="{{ asset('/public/assets/css/responsive.css') }}" />
  <!-- CSRF Token -->
  <meta name="csrf-token" content="{{ csrf_token() }}">
 
