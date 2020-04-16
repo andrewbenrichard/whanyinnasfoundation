@@ -3968,8 +3968,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("footer mounted.");
@@ -64913,33 +64911,56 @@ var staticRenderFns = [
         _c("div", { staticClass: "contact-info-content" }, [
           _c("ul", { staticClass: "social" }, [
             _c("li", [
-              _c("a", { attrs: { href: "#", target: "_blank" } }, [
-                _c("i", { staticClass: "flaticon-facebook" })
-              ])
+              _c(
+                "a",
+                {
+                  attrs: {
+                    href: "https://www.facebook.com/whanyinnaschool",
+                    target: "_blank"
+                  }
+                },
+                [_c("i", { staticClass: "flaticon-facebook" })]
+              )
             ]),
             _vm._v(" "),
             _c("li", [
-              _c("a", { attrs: { href: "#", target: "_blank" } }, [
-                _c("i", { staticClass: "flaticon-twitter" })
-              ])
+              _c(
+                "a",
+                {
+                  attrs: {
+                    href: "https://twitter.com/whanyinnaschool",
+                    target: "_blank"
+                  }
+                },
+                [_c("i", { staticClass: "flaticon-twitter" })]
+              )
             ]),
             _vm._v(" "),
             _c("li", [
-              _c("a", { attrs: { href: "#", target: "_blank" } }, [
-                _c("i", { staticClass: "flaticon-instagram" })
-              ])
+              _c(
+                "a",
+                {
+                  attrs: {
+                    href: "https://www.instagram.com/whanyinnafoundation",
+                    target: "_blank"
+                  }
+                },
+                [_c("i", { staticClass: "flaticon-instagram" })]
+              )
             ]),
             _vm._v(" "),
             _c("li", [
-              _c("a", { attrs: { href: "#", target: "_blank" } }, [
-                _c("i", { staticClass: "flaticon-linkedin" })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("li", [
-              _c("a", { attrs: { href: "#", target: "_blank" } }, [
-                _c("i", { staticClass: "flaticon-pinterest" })
-              ])
+              _c(
+                "a",
+                {
+                  attrs: {
+                    href:
+                      "https://www.linkedin.com/company/whanyinna-children-foundation",
+                    target: "_blank"
+                  }
+                },
+                [_c("i", { staticClass: "flaticon-linkedin" })]
+              )
             ])
           ])
         ])
@@ -65087,144 +65108,103 @@ var render = function() {
                   attrs: { id: "navbarSupportedContent" }
                 },
                 [
-                  _c(
-                    "ul",
-                    { staticClass: "navbar-nav" },
-                    [
-                      _c(
-                        "li",
-                        { staticClass: "nav-item" },
-                        [
-                          _c(
-                            "router-link",
-                            {
-                              staticClass: "nav-link",
-                              attrs: { index: "0", to: "/" }
-                            },
-                            [_vm._v("Home")]
-                          )
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "li",
-                        { staticClass: "nav-item" },
-                        [
-                          _c(
-                            "router-link",
-                            {
-                              staticClass: "nav-link",
-                              attrs: { index: "1", to: "/about-us" }
-                            },
-                            [_vm._v("About Us")]
-                          )
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "li",
-                        { staticClass: "nav-item" },
-                        [
-                          _c(
-                            "router-link",
-                            {
-                              staticClass: "nav-link",
-                              attrs: { index: "2", to: "/gallery" }
-                            },
-                            [_vm._v("Gallery")]
-                          )
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "li",
-                        { staticClass: "nav-item" },
-                        [
-                          _c(
-                            "router-link",
-                            {
-                              staticClass: "nav-link",
-                              attrs: { index: "3", to: "/projects" }
-                            },
-                            [_vm._v("Donate")]
-                          )
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "li",
-                        { staticClass: "nav-item" },
-                        [
-                          _c(
-                            "router-link",
-                            {
-                              staticClass: "nav-link",
-                              attrs: { index: "3", to: "/blog" }
-                            },
-                            [_vm._v("Blog")]
-                          )
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "li",
-                        { staticClass: "nav-item" },
-                        [
-                          _c(
-                            "router-link",
-                            {
-                              staticClass: "nav-link",
-                              attrs: { index: "4", to: "/contact" }
-                            },
-                            [_vm._v("Contact")]
-                          )
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _vm.authenticated
-                        ? [
-                            _c(
-                              "li",
-                              { staticClass: "nav-item" },
-                              [
-                                _c(
-                                  "router-link",
-                                  {
-                                    staticClass: "nav-link",
-                                    attrs: { index: "4", to: "/log_admin" }
-                                  },
-                                  [_vm._v("Dashboard")]
-                                )
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "li",
-                              { staticClass: "nav-item" },
-                              [
-                                _c(
-                                  "router-link",
-                                  {
-                                    staticClass: "nav-link",
-                                    attrs: { index: "4", to: "#" }
-                                  },
-                                  [_vm._v("Logout")]
-                                )
-                              ],
-                              1
-                            )
-                          ]
-                        : _vm._e()
-                    ],
-                    2
-                  )
+                  _c("ul", { staticClass: "navbar-nav" }, [
+                    _c(
+                      "li",
+                      { staticClass: "nav-item" },
+                      [
+                        _c(
+                          "router-link",
+                          {
+                            staticClass: "nav-link",
+                            attrs: { index: "0", to: "/" }
+                          },
+                          [_vm._v("Home")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      { staticClass: "nav-item" },
+                      [
+                        _c(
+                          "router-link",
+                          {
+                            staticClass: "nav-link",
+                            attrs: { index: "1", to: "/about-us" }
+                          },
+                          [_vm._v("About Us")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      { staticClass: "nav-item" },
+                      [
+                        _c(
+                          "router-link",
+                          {
+                            staticClass: "nav-link",
+                            attrs: { index: "2", to: "/gallery" }
+                          },
+                          [_vm._v("Gallery")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      { staticClass: "nav-item" },
+                      [
+                        _c(
+                          "router-link",
+                          {
+                            staticClass: "nav-link",
+                            attrs: { index: "3", to: "/projects" }
+                          },
+                          [_vm._v("Donate")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      { staticClass: "nav-item" },
+                      [
+                        _c(
+                          "router-link",
+                          {
+                            staticClass: "nav-link",
+                            attrs: { index: "3", to: "/blog" }
+                          },
+                          [_vm._v("Blog")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      { staticClass: "nav-item" },
+                      [
+                        _c(
+                          "router-link",
+                          {
+                            staticClass: "nav-link",
+                            attrs: { index: "4", to: "/contact" }
+                          },
+                          [_vm._v("Contact")]
+                        )
+                      ],
+                      1
+                    )
+                  ])
                 ]
               )
             ],

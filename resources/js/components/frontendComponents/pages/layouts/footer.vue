@@ -35,28 +35,26 @@
               <div class="contact-info-content">
                 <ul class="social">
                   <li>
-                    <a href="#" target="_blank">
+                    <a href="https://www.facebook.com/whanyinnaschool" target="_blank">
                       <i class="flaticon-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <a href="https://twitter.com/whanyinnaschool" target="_blank">
                       <i class="flaticon-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <a href="https://www.instagram.com/whanyinnafoundation" target="_blank">
                       <i class="flaticon-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/company/whanyinna-children-foundation"
+                      target="_blank"
+                    >
                       <i class="flaticon-linkedin"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank">
-                      <i class="flaticon-pinterest"></i>
                     </a>
                   </li>
                 </ul>
