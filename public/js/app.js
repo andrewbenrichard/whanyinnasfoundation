@@ -64102,9 +64102,7 @@ var render = function() {
                     _c("span", [_vm._v("Whanyinna")]),
                     _vm._v(" "),
                     _c("h1", [
-                      _vm._v(
-                        "Helping childern across Nigeria access free education"
-                      )
+                      _vm._v("Helping childern across Nigeria access free")
                     ]),
                     _vm._v(" "),
                     _c("p", [
@@ -99341,8 +99339,8 @@ _store__WEBPACK_IMPORTED_MODULE_0__["default"].subscribe(function (mutation) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\ANDREW BEN RICHARD\Desktop\personal growth\sibro\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\ANDREW BEN RICHARD\Desktop\personal growth\sibro\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\ANDREW BEN RICHARD\Desktop\personal growth\whanyinnasfoundation\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\ANDREW BEN RICHARD\Desktop\personal growth\whanyinnasfoundation\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

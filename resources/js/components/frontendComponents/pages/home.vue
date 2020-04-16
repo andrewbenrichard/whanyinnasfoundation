@@ -11,7 +11,7 @@
               <div class="d-table-cell">
                 <div class="main-banner-content">
                   <span>Whanyinna</span>
-                  <h1>Helping childern across Nigeria access free education</h1>
+                  <h1>Helping childern across Nigeria access free</h1>
                   <p>
                     We believe that when children have access to their rights,
                     they grow as an independent individual who can break through
