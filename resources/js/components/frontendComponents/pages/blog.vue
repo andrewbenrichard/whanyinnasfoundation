@@ -26,7 +26,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-6" v-for="article in articles" :key="article.id">
             <div class="single-blog">
-              <img :src="'/assets/img/gallery/' + article.article_img" alt="image" />
+              <img :src="'/public/assets/img/gallery/' + article.article_img" alt="image" />
 
               <div class="content">
                 <span>{{article.date}}</span>

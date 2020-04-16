@@ -32,10 +32,10 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-6" v-for="gallery in galleries" :key="gallery.id">
             <div class="single-gallery-box">
-              <img :src="'assets/img/gallery/' + gallery.gallery_img" alt="image" />
+              <img :src="'/public/assets/img/gallery/' + gallery.gallery_img" alt="image" />
 
               <a
-                :href="'assets/img/gallery/'+ gallery.gallery_img"
+                :href="'/public/assets/img/gallery/'+ gallery.gallery_img"
                 class="gallery-btn"
                 data-imagelightbox="popup-btn"
               >

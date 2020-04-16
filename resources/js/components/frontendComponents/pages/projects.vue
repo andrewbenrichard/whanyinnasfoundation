@@ -39,7 +39,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6" v-for="project in projects" :key="project.id">
             <div class="single-causes">
-              <img :src="'/assets/img/donate/' + project.project_img" alt="image" />
+              <img :src="'/public/assets/img/donate/' + project.project_img" alt="image" />
               <div class="icon">
                 <i class="flaticon-book-1"></i>
               </div>

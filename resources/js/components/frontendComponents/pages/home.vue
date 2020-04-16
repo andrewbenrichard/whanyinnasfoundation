@@ -11,7 +11,7 @@
               <div class="d-table-cell">
                 <div class="main-banner-content">
                   <span>Whanyinna</span>
-                  <h1>Helping childern across Nigeria access free</h1>
+                  <h1>Helping childern across Nigeria access free education</h1>
                   <p>
                     We believe that when children have access to their rights,
                     they grow as an independent individual who can break through
@@ -34,19 +34,19 @@
             <div class="banner-slider-wrap">
               <div class="banner-image-slider owl-carousel owl-theme">
                 <div class="image-item">
-                  <img src="assets/img/home-two/1.jpg" alt="image" />
+                  <img src="/public/assets/img/home-two/1.jpg" alt="image" />
                 </div>
 
                 <div class="image-item">
-                  <img src="assets/img/home-two/2.png" alt="image" />
+                  <img src="/public/assets/img/home-two/2.png" alt="image" />
                 </div>
 
                 <div class="image-item">
-                  <img src="assets/img/home-two/3.png" alt="image" />
+                  <img src="/public/assets/img/home-two/3.png" alt="image" />
                 </div>
 
                 <div class="image-item">
-                  <img src="assets/img/home-two/2.png" alt="image" />
+                  <img src="/public/assets/img/home-two/2.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@
       </div>
 
       <div class="banner-shape">
-        <img src="assets/img/home-two/shape.png" alt="image" />
+        <img src="/public/assets/img/home-two/shape.png" alt="image" />
       </div>
     </div>
     <!-- End Main Banner Area -->
@@ -83,8 +83,8 @@
             <div class="feature-slider owl-carousel owl-theme">
               <div class="feature-card">
                 <div class="icon">
-                  <img src="assets/img/icon/1.png" alt="image" />
-                  <img src="assets/img/icon/white-1.png" alt="image" />
+                  <img src="/public/assets/img/icon/1.png" alt="image" />
+                  <img src="/public/assets/img/icon/white-1.png" alt="image" />
                 </div>
 
                 <h3>Meet our Tutors</h3>
@@ -100,8 +100,8 @@
 
               <div class="feature-card">
                 <div class="icon">
-                  <img src="assets/img/icon/2.png" alt="image" />
-                  <img src="assets/img/icon/white-2.png" alt="image" />
+                  <img src="/public/assets/img/icon/2.png" alt="image" />
+                  <img src="/public/assets/img/icon/white-2.png" alt="image" />
                 </div>
 
                 <h3>Meet Our Kids</h3>
@@ -117,8 +117,8 @@
 
               <div class="feature-card">
                 <div class="icon">
-                  <img src="assets/img/icon/3.png" alt="image" />
-                  <img src="assets/img/icon/white-3.png" alt="image" />
+                  <img src="/public/assets/img/icon/3.png" alt="image" />
+                  <img src="/public/assets/img/icon/white-3.png" alt="image" />
                 </div>
 
                 <h3>Meet Our Alumni</h3>
@@ -134,8 +134,8 @@
 
               <div class="feature-card">
                 <div class="icon">
-                  <img src="assets/img/icon/4.png" alt="image" />
-                  <img src="assets/img/icon/white-4.png" alt="image" />
+                  <img src="/public/assets/img/icon/4.png" alt="image" />
+                  <img src="/public/assets/img/icon/white-4.png" alt="image" />
                 </div>
 
                 <h3>Donate</h3>
@@ -161,7 +161,7 @@
         <div class="row">
           <div class="col-lg-6 p-0">
             <div class="about-image about-img-two ptb-100">
-              <img src="assets/img/about/about-image.jpg" alt="image" />
+              <img src="/public/assets/img/about/about-image.jpg" alt="image" />
             </div>
           </div>
 
@@ -210,7 +210,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="single-causes">
-                            <img src="assets/img/causes/1.jpg" alt="image">
+                            <img src="/public/assets/img/causes/1.jpg" alt="image">
                             <div class="icon">
                                 <i class="flaticon-book-1"></i>
                             </div>
@@ -241,7 +241,7 @@
 
                     <div class="col-lg-4 col-md-6">
                         <div class="single-causes">
-                            <img src="assets/img/causes/2.jpg" alt="image">
+                            <img src="/public/assets/img/causes/2.jpg" alt="image">
                             <div class="icon">
                                 <i class="flaticon-laptop"></i>
                             </div>
@@ -272,7 +272,7 @@
 
                     <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
                         <div class="single-causes">
-                            <img src="assets/img/causes/3.jpg" alt="image">
+                            <img src="/public/assets/img/causes/3.jpg" alt="image">
                             <div class="icon">
                                 <i class="flaticon-blood-bag"></i>
                             </div>
@@ -356,7 +356,7 @@
 
                     <div class="col-lg-4">
                         <div class="process-image">
-                            <img src="assets/img/process.png" alt="image">
+                            <img src="/public/assets/img/process.png" alt="image">
                         </div>
                     </div>
                 </div>
@@ -397,7 +397,7 @@
       </div>
 
       <div class="donate-form-shape">
-        <img src="assets/img/donate-form/shape.png" alt="image" />
+        <img src="/public/assets/img/donate-form/shape.png" alt="image" />
       </div>
     </section>
     <!-- End Donate Form Area -->
@@ -422,7 +422,7 @@
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="solve-item-two">
               <div class="icon">
-                <img src="assets/img/solve/1.png" alt="image" />
+                <img src="/public/assets/img/solve/1.png" alt="image" />
               </div>
               <h3>Integrity and Accountability</h3>
               <p>
@@ -437,7 +437,7 @@
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="solve-item-two">
               <div class="icon">
-                <img src="assets/img/solve/2.png" alt="image" />
+                <img src="/public/assets/img/solve/2.png" alt="image" />
               </div>
               <h3>State-of-the-Art Practices</h3>
               <p>
@@ -450,7 +450,7 @@
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="solve-item-two">
               <div class="icon">
-                <img src="assets/img/solve/3.png" alt="image" />
+                <img src="/public/assets/img/solve/3.png" alt="image" />
               </div>
               <h3>Individualized Support</h3>
               <p>
@@ -464,7 +464,7 @@
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="solve-item-two">
               <div class="icon">
-                <img src="assets/img/solve/4.png" alt="image" />
+                <img src="/public/assets/img/solve/4.png" alt="image" />
               </div>
               <h3>Caring Attitude</h3>
               <p>
@@ -541,7 +541,7 @@
 
           <div class="col-lg-6 p-0">
             <div class="fame-image">
-              <img src="assets/img/fame.jpg" alt="image" />
+              <img src="/public/assets/img/fame.jpg" alt="image" />
             </div>
           </div>
         </div>
@@ -600,7 +600,7 @@
         </div>
       </div>
       <div class="white-shape">
-        <img src="assets/img/white-shape.png" alt="Image" />
+        <img src="/public/assets/img/white-shape.png" alt="Image" />
       </div>
     </section>
     <!-- End Mission Area -->
@@ -622,8 +622,8 @@
       </div>
 
       <div class="default-shape">
-        <img src="assets/img/donate/1.png" alt="image" />
-        <img src="assets/img/donate/2.png" alt="image" />
+        <img src="/public/assets/img/donate/1.png" alt="image" />
+        <img src="/public/assets/img/donate/2.png" alt="image" />
       </div>
     </section>
     <!-- End Donate Area -->

@@ -3941,32 +3941,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("footer mounted.");
@@ -64102,7 +64076,9 @@ var render = function() {
                     _c("span", [_vm._v("Whanyinna")]),
                     _vm._v(" "),
                     _c("h1", [
-                      _vm._v("Helping childern across Nigeria access free")
+                      _vm._v(
+                        "Helping childern across Nigeria access free education"
+                      )
                     ]),
                     _vm._v(" "),
                     _c("p", [
@@ -64314,25 +64290,37 @@ var staticRenderFns = [
           [
             _c("div", { staticClass: "image-item" }, [
               _c("img", {
-                attrs: { src: "assets/img/home-two/1.jpg", alt: "image" }
+                attrs: {
+                  src: "/public/assets/img/home-two/1.jpg",
+                  alt: "image"
+                }
               })
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "image-item" }, [
               _c("img", {
-                attrs: { src: "assets/img/home-two/2.png", alt: "image" }
+                attrs: {
+                  src: "/public/assets/img/home-two/2.png",
+                  alt: "image"
+                }
               })
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "image-item" }, [
               _c("img", {
-                attrs: { src: "assets/img/home-two/3.png", alt: "image" }
+                attrs: {
+                  src: "/public/assets/img/home-two/3.png",
+                  alt: "image"
+                }
               })
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "image-item" }, [
               _c("img", {
-                attrs: { src: "assets/img/home-two/2.png", alt: "image" }
+                attrs: {
+                  src: "/public/assets/img/home-two/2.png",
+                  alt: "image"
+                }
               })
             ])
           ]
@@ -64346,7 +64334,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "banner-shape" }, [
       _c("img", {
-        attrs: { src: "assets/img/home-two/shape.png", alt: "image" }
+        attrs: { src: "/public/assets/img/home-two/shape.png", alt: "image" }
       })
     ])
   },
@@ -64357,7 +64345,10 @@ var staticRenderFns = [
     return _c("div", { staticClass: "col-lg-6 p-0" }, [
       _c("div", { staticClass: "about-image about-img-two ptb-100" }, [
         _c("img", {
-          attrs: { src: "assets/img/about/about-image.jpg", alt: "image" }
+          attrs: {
+            src: "/public/assets/img/about/about-image.jpg",
+            alt: "image"
+          }
         })
       ])
     ])
@@ -64393,7 +64384,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "donate-form-shape" }, [
       _c("img", {
-        attrs: { src: "assets/img/donate-form/shape.png", alt: "image" }
+        attrs: { src: "/public/assets/img/donate-form/shape.png", alt: "image" }
       })
     ])
   },
@@ -64423,7 +64414,9 @@ var staticRenderFns = [
     return _c("div", { staticClass: "col-lg-3 col-md-6 col-sm-6" }, [
       _c("div", { staticClass: "solve-item-two" }, [
         _c("div", { staticClass: "icon" }, [
-          _c("img", { attrs: { src: "assets/img/solve/1.png", alt: "image" } })
+          _c("img", {
+            attrs: { src: "/public/assets/img/solve/1.png", alt: "image" }
+          })
         ]),
         _vm._v(" "),
         _c("h3", [_vm._v("Integrity and Accountability")]),
@@ -64443,7 +64436,9 @@ var staticRenderFns = [
     return _c("div", { staticClass: "col-lg-3 col-md-6 col-sm-6" }, [
       _c("div", { staticClass: "solve-item-two" }, [
         _c("div", { staticClass: "icon" }, [
-          _c("img", { attrs: { src: "assets/img/solve/2.png", alt: "image" } })
+          _c("img", {
+            attrs: { src: "/public/assets/img/solve/2.png", alt: "image" }
+          })
         ]),
         _vm._v(" "),
         _c("h3", [_vm._v("State-of-the-Art Practices")]),
@@ -64463,7 +64458,9 @@ var staticRenderFns = [
     return _c("div", { staticClass: "col-lg-3 col-md-6 col-sm-6" }, [
       _c("div", { staticClass: "solve-item-two" }, [
         _c("div", { staticClass: "icon" }, [
-          _c("img", { attrs: { src: "assets/img/solve/3.png", alt: "image" } })
+          _c("img", {
+            attrs: { src: "/public/assets/img/solve/3.png", alt: "image" }
+          })
         ]),
         _vm._v(" "),
         _c("h3", [_vm._v("Individualized Support")]),
@@ -64483,7 +64480,9 @@ var staticRenderFns = [
     return _c("div", { staticClass: "col-lg-3 col-md-6 col-sm-6" }, [
       _c("div", { staticClass: "solve-item-two" }, [
         _c("div", { staticClass: "icon" }, [
-          _c("img", { attrs: { src: "assets/img/solve/4.png", alt: "image" } })
+          _c("img", {
+            attrs: { src: "/public/assets/img/solve/4.png", alt: "image" }
+          })
         ]),
         _vm._v(" "),
         _c("h3", [_vm._v("Caring Attitude")]),
@@ -64604,7 +64603,9 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-6 p-0" }, [
             _c("div", { staticClass: "fame-image" }, [
-              _c("img", { attrs: { src: "assets/img/fame.jpg", alt: "image" } })
+              _c("img", {
+                attrs: { src: "/public/assets/img/fame.jpg", alt: "image" }
+              })
             ])
           ])
         ])
@@ -64663,7 +64664,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "white-shape" }, [
         _c("img", {
-          attrs: { src: "assets/img/white-shape.png", alt: "Image" }
+          attrs: { src: "/public/assets/img/white-shape.png", alt: "Image" }
         })
       ])
     ])
@@ -64684,9 +64685,13 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "default-shape" }, [
-      _c("img", { attrs: { src: "assets/img/donate/1.png", alt: "image" } }),
+      _c("img", {
+        attrs: { src: "/public/assets/img/donate/1.png", alt: "image" }
+      }),
       _vm._v(" "),
-      _c("img", { attrs: { src: "assets/img/donate/2.png", alt: "image" } })
+      _c("img", {
+        attrs: { src: "/public/assets/img/donate/2.png", alt: "image" }
+      })
     ])
   }
 ]
@@ -64839,10 +64844,10 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("span", [
             _vm._v(
-              "\n                                19, Raimi Street, Makoko Road,\n                                "
+              "\n                19, Raimi Street, Makoko Road,\n                "
             ),
             _c("br"),
-            _vm._v("Yaba, Lagos.\n                            ")
+            _vm._v("Yaba, Lagos.\n              ")
           ])
         ]),
         _vm._v(" "),
@@ -64885,7 +64890,10 @@ var staticRenderFns = [
             _c("div", { staticClass: "col-lg-4" }, [
               _c("div", { staticClass: "copyright-logo" }, [
                 _c("img", {
-                  attrs: { src: "assets/img/logo_debug.png", alt: "image" }
+                  attrs: {
+                    src: "/public/assets/img/logo_debug.png",
+                    alt: "image"
+                  }
                 })
               ])
             ]),
@@ -64894,7 +64902,7 @@ var staticRenderFns = [
               _c("p", [
                 _c("i", { staticClass: "far fa-copyright" }),
                 _vm._v(
-                  "\n                                2020 Whanyinna Childern Foundation. All\n                                Rights Reserved\n                                "
+                  "\n                2020 Whanyinna Childern Foundation. All\n                Rights Reserved\n                "
                 ),
                 _c("br"),
                 _vm._v(" "),

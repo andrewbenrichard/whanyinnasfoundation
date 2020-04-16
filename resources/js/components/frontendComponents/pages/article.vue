@@ -29,7 +29,7 @@
           <div class="col-lg-8 col-md-12">
             <div class="blog-details-desc">
               <div class="article-image">
-                <img :src="'/assets/img/gallery/' + article.article_img" alt="image" />
+                <img :src="'/public/assets/img/gallery/' + article.article_img" alt="image" />
               </div>
               <div class="article-content">
                 <div class="entry-meta">
@@ -53,7 +53,7 @@
 
                 <article class="item" v-for="article_top in articles_top" :key="article_top.id">
                   <router-link class="thumb" :to="'/article/' + article_top.article_slug">
-                    <img :src="'/assets/img/gallery/' + article_top.article_img" alt="image" />
+                    <img :src="'/public/assets/img/gallery/' + article_top.article_img" alt="image" />
                     <span class="fullimage cover bg1" role="img"></span>
                   </router-link>
                   <div class="info">

@@ -56,8 +56,8 @@
 
           <div class="col-lg-6">
             <div class="about-image">
-              <img src="assets/img/about/1.png" class="shadow about-page-img" alt="image" />
-              <img src="assets/img/about/2.png" class="shadow" alt="image" />
+              <img src="/public/assets/img/about/1.png" class="shadow about-page-img" alt="image" />
+              <img src="/public/assets/img/about/2.png" class="shadow" alt="image" />
             </div>
 
             <!-- <div class="about-video">
@@ -80,7 +80,7 @@
         <div class="row">
           <div class="col-lg-6 p-0">
             <div class="mission-image">
-              <img src="assets/img/mission.png" alt="image" />
+              <img src="/public/assets/img/mission.png" alt="image" />
             </div>
           </div>
 
@@ -147,7 +147,7 @@
           <div class="col-lg-6 col-md-6 col-sm-6">
             <div class="team-item">
               <div class="content">
-                <img class="img-fluid" src="assets/img/team/2.png" alt />
+                <img class="img-fluid" src="/public/assets/img/team/2.png" alt />
                 <h3>Noah Olorunwa Shemede</h3>
                 <span>Founder and Executive Director</span>
               </div>
@@ -157,7 +157,7 @@
           <div class="col-lg-6 col-md-6 col-sm-6">
             <div class="team-item">
               <div class="content">
-                <img class="img-fluid" src="assets/img/team/1.png" alt />
+                <img class="img-fluid" src="/public/assets/img/team/1.png" alt />
                 <h3>Emmanuel Abiodun Oke</h3>
                 <span>
                   Director of Strategic Initiatives and Special
