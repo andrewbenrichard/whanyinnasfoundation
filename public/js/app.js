@@ -3941,6 +3941,41 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("footer mounted.");
@@ -64136,7 +64171,7 @@ var render = function() {
                 _vm._v(" "),
                 _c("h3", [
                   _vm._v(
-                    "Whanyinna means love in Egun language. It is of Badagry"
+                    "Whanyinna means love in Egun language. It is of Badagry Origin"
                   )
                 ]),
                 _vm._v(" "),
@@ -64537,7 +64572,7 @@ var staticRenderFns = [
                           staticClass: "odometer",
                           attrs: { "data-count": "200" }
                         },
-                        [_vm._v("00")]
+                        [_vm._v("200")]
                       ),
                       _vm._v(" "),
                       _c("span", { staticClass: "sign-icon" }, [_vm._v("+")])
@@ -64558,7 +64593,7 @@ var staticRenderFns = [
                           staticClass: "odometer",
                           attrs: { "data-count": "8" }
                         },
-                        [_vm._v("00")]
+                        [_vm._v("8")]
                       )
                     ])
                   ])
@@ -64575,7 +64610,7 @@ var staticRenderFns = [
                           staticClass: "odometer",
                           attrs: { "data-count": "300" }
                         },
-                        [_vm._v("00")]
+                        [_vm._v("300")]
                       ),
                       _vm._v(" "),
                       _c("span", { staticClass: "sign-icon" }, [_vm._v("+")])
@@ -64594,7 +64629,7 @@ var staticRenderFns = [
                           staticClass: "odometer",
                           attrs: { "data-count": "155" }
                         },
-                        [_vm._v("00")]
+                        [_vm._v("155")]
                       ),
                       _vm._v(" "),
                       _c("span", { staticClass: "sign-icon" }, [_vm._v("+")])
@@ -64789,7 +64824,9 @@ var render = function() {
                   1
                 )
               ])
-            ])
+            ]),
+            _vm._v(" "),
+            _vm._m(1)
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4 col-md-6 col-sm-6" }, [
@@ -64826,10 +64863,10 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _vm._m(1)
+      _vm._m(2)
     ]),
     _vm._v(" "),
-    _vm._m(2)
+    _vm._m(3)
   ])
 }
 var staticRenderFns = [
@@ -64878,6 +64915,56 @@ var staticRenderFns = [
               { attrs: { href: "mailto:info@whanyinnasfoundation.org" } },
               [_vm._v("info@whanyinnasfoundation.org")]
             )
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "contact-info-content" }, [
+      _c("h2", [
+        _c("a", { attrs: { href: "tel:+0881306298615" } }, [
+          _vm._v("+088 130 629 8615")
+        ]),
+        _vm._v(" "),
+        _c("span", [_vm._v("OR")]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "mailto:huruma@gmail.com" } }, [
+          _vm._v("huruma@gmail.com")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("ul", { staticClass: "social" }, [
+        _c("li", [
+          _c("a", { attrs: { href: "#", target: "_blank" } }, [
+            _c("i", { staticClass: "flaticon-facebook" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#", target: "_blank" } }, [
+            _c("i", { staticClass: "flaticon-twitter" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#", target: "_blank" } }, [
+            _c("i", { staticClass: "flaticon-instagram" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#", target: "_blank" } }, [
+            _c("i", { staticClass: "flaticon-linkedin" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#", target: "_blank" } }, [
+            _c("i", { staticClass: "flaticon-pinterest" })
           ])
         ])
       ])

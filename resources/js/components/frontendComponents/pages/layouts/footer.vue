@@ -67,6 +67,41 @@
                 </li>
               </ul>
             </div>
+            <div class="contact-info-content">
+              <h2>
+                <a href="tel:+0881306298615">+088 130 629 8615</a>
+                <span>OR</span>
+                <a href="mailto:huruma@gmail.com">huruma@gmail.com</a>
+              </h2>
+
+              <ul class="social">
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="flaticon-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="flaticon-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="flaticon-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="flaticon-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="flaticon-pinterest"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div class="col-lg-4 col-md-6 col-sm-6">

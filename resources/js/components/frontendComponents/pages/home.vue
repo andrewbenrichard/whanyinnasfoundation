@@ -171,7 +171,7 @@
                 <i class="flaticon-care-about-plants"></i>
                 About us
               </span>
-              <h3>Whanyinna means love in Egun language. It is of Badagry</h3>
+              <h3>Whanyinna means love in Egun language. It is of Badagry Origin</h3>
               <p
                 class="main-color"
               >There are 9 million children out of school in Nigeria (UNESCO 2015)</p>
@@ -501,7 +501,7 @@
                   <div class="single-fun-fact">
                     <p>Children currently enrolled</p>
                     <h3>
-                      <span class="odometer" data-count="200">00</span>
+                      <span class="odometer" data-count="200">200</span>
                       <span class="sign-icon">+</span>
                     </h3>
                   </div>
@@ -511,7 +511,7 @@
                   <div class="single-fun-fact">
                     <p>Standard Classrooms with ICT Lab and Library</p>
                     <h3>
-                      <span class="odometer" data-count="8">00</span>
+                      <span class="odometer" data-count="8">8</span>
                     </h3>
                   </div>
                 </div>
@@ -520,7 +520,7 @@
                   <div class="single-fun-fact">
                     <p>Kids waiting to be enrolled</p>
                     <h3>
-                      <span class="odometer" data-count="300">00</span>
+                      <span class="odometer" data-count="300">300</span>
                       <span class="sign-icon">+</span>
                     </h3>
                   </div>
@@ -530,7 +530,7 @@
                   <div class="single-fun-fact">
                     <p>Alumni</p>
                     <h3>
-                      <span class="odometer" data-count="155">00</span>
+                      <span class="odometer" data-count="155">155</span>
                       <span class="sign-icon">+</span>
                     </h3>
                   </div>
