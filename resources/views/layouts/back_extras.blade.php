@@ -1,1 +1,1 @@
-<script src="/js/app.js"></script>
+<script src="{{ URL::asset('/public/js/app.js') }}"></script>
