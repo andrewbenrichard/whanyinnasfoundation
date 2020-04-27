@@ -38,7 +38,11 @@
                   <router-link index="2" class="nav-link" to="/gallery">Gallery</router-link>
                 </li>
                 <li class="nav-item">
-                  <router-link index="3" class="nav-link" to="/projects">Donate</router-link>
+                  <router-link
+                    index="3"
+                    class="nav-link"
+                    to="/donate/makoko-floating-schools"
+                  >Donate</router-link>
                 </li>
                 <li class="nav-item">
                   <router-link index="3" class="nav-link" to="/blog">Blog</router-link>

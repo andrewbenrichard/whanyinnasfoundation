@@ -19,7 +19,7 @@
                     their own hands and play an active part in shaping it.
                   </p>
                   <div class="banner-btn">
-                    <router-link class="default-btn" to="/projects">
+                    <router-link class="default-btn" to="/donate/makoko-floating-school">
                       Donate Now
                       <i class="flaticon-right"></i>
                       <span></span>

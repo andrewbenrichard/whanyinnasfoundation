@@ -4076,6 +4076,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
@@ -64126,7 +64130,7 @@ var render = function() {
                           "router-link",
                           {
                             staticClass: "default-btn",
-                            attrs: { to: "/projects" }
+                            attrs: { to: "/donate/makoko-floating-school" }
                           },
                           [
                             _vm._v(
@@ -65165,7 +65169,10 @@ var render = function() {
                           "router-link",
                           {
                             staticClass: "nav-link",
-                            attrs: { index: "3", to: "/projects" }
+                            attrs: {
+                              index: "3",
+                              to: "/donate/makoko-floating-schools"
+                            }
                           },
                           [_vm._v("Donate")]
                         )
