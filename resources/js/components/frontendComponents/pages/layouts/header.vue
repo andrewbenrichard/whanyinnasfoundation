@@ -41,7 +41,7 @@
                   <router-link
                     index="3"
                     class="nav-link"
-                    to="/donate/makoko-floating-schools"
+                    to="/donate/makoko-floating-school"
                   >Donate</router-link>
                 </li>
                 <li class="nav-item">

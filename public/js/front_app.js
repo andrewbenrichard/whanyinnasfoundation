@@ -43777,7 +43777,7 @@ var render = function() {
                           "router-link",
                           {
                             staticClass: "default-btn",
-                            attrs: { to: "/projects" }
+                            attrs: { to: "/donate/makoko-floating-school" }
                           },
                           [
                             _vm._v(
@@ -43849,7 +43849,10 @@ var render = function() {
               _vm._v(" "),
               _c(
                 "router-link",
-                { staticClass: "default-btn", attrs: { to: "/projects" } },
+                {
+                  staticClass: "default-btn",
+                  attrs: { to: "/donate/makoko-floating-school" }
+                },
                 [
                   _vm._v("\n          Become a contributor\n          "),
                   _c("i", { staticClass: "flaticon-right" })
@@ -44727,7 +44730,7 @@ var render = function() {
                             staticClass: "nav-link",
                             attrs: {
                               index: "3",
-                              to: "/donate/makoko-floating-schools"
+                              to: "/donate/makoko-floating-school"
                             }
                           },
                           [_vm._v("Donate")]

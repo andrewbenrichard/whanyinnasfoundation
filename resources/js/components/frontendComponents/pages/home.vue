@@ -384,7 +384,7 @@
               <div class="row">
                 <div class="col-lg-12">
                   <div class="donate-form-btn">
-                    <router-link class="default-btn" to="/projects">
+                    <router-link class="default-btn" to="/donate/makoko-floating-school">
                       Make a donation
                       <span></span>
                     </router-link>
@@ -614,7 +614,7 @@
             Did you know?
             <strong>Whanyinna means love in Egun language. It is of Badagry</strong>
           </p>
-          <router-link class="default-btn" to="/projects">
+          <router-link class="default-btn" to="/donate/makoko-floating-school">
             Become a contributor
             <i class="flaticon-right"></i>
           </router-link>
