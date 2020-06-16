@@ -92,14 +92,14 @@ class ApiController extends Controller
     public function ArticleGallery($slug)
     {
         $article = Article::where('slug', '=', $slug)->first();
-        $gallery = ArticleGallery::where('article_id', '=', $article->id)->get();
+        $galleries = ArticleGallery::where('article_id', '=', $article->id)->get();
         
 
-        $galleries[] =array(
-            'id' => $gallery->id,
-            'article_img' => $gallery->article_img,
+        // $galleries[] =array(
+        //     'id' => $gallery->id,
+        //     'article_img' => $gallery->article_img,
             
-        );
+        // );
         return response()->json($galleries);
     }
     public function singleArticle($slug)
