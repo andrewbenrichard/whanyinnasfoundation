@@ -9,6 +9,7 @@ use App\Article;
 use App\Project;
 use App\Gallery;
 use App\Donation;
+use App\ArticleGallery;
 use Illuminate\Support\Carbon;
 
 
@@ -222,6 +223,28 @@ class ApiController extends Controller
                 'slug' => $slug,
                 ]);
             }
+      
+        return response()->json($article);
+    }
+    public function UploadArticlePics(Request $request)
+    {
+
+       
+       $article = Article::where('id', $request->article_id)->first();
+
+
+        if($request->article_img){
+            $name = time().'.' . explode('/', explode(':', substr($request->article_img, 0, strpos(
+                $request->article_img, ';'
+            )))[1])[1];
+
+            \Image::make($request->article_img)->save(public_path('assets/img/gallery/').$name);
+            
+            $images = ArticleGallery::create([
+                'article_id' => $request['article_id'],
+                'article_img' => $name,
+            ]);
+        }
       
         return response()->json($article);
     }

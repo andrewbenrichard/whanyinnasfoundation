@@ -114,6 +114,19 @@ let routes = [
         }
     },
     {
+        path: "/dashboard/article/:slug",
+        name: "article",
+        component: require("./components/dashboardComponents/article.vue").default,
+        beforeEnter: (to, from, next) => {
+            if (!store.getters["auth/authenticated"]) {
+                return next({
+                    name: "login"
+                });
+            }
+            next();
+        }
+    },
+    {
         path: "/dashboard/profile",
         name: "profile",
         component: require("./components/dashboardComponents/profile.vue")

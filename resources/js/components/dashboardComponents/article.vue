@@ -38,7 +38,6 @@
                   icon="delete"
                 ></vs-button>
                 <vs-button @click="editModal(article)" color="primary" icon="edit"></vs-button>
-                <vs-button @click="uploadGallery(article)" color="warning">Gallery</vs-button>
               </vs-row>
             </div>
           </vs-card>
@@ -107,38 +106,6 @@
         </div>
       </div>
     </div>
-    <div
-      class="modal fade"
-      id="addgallery"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Add Gallery</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <form @submit.prevent="uploadGallery">
-            <div class="modal-body">
-              <input type="hidden" name="article_id" />
-              <div class="form-group">
-                <input name="article_img" @change="CreateImage" type="file" />
-                <has-error :form="form" field="article_img"></has-error>
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="submit" class="btn btn-primary">Create</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -158,10 +125,6 @@ export default {
         article_title: "",
         article_body: "",
         article_img: ""
-      }),
-      gallery_form: new Form({
-        article_id: "",
-        article_gallery_img: ""
       })
     };
   },
@@ -195,15 +158,6 @@ export default {
       };
       reader.readAsDataURL(file);
     },
-    CreateGalleryImage(e) {
-      let file = e.target.files[0];
-      let reader = new FileReader();
-      //   let vm = this;
-      reader.onloadend = file => {
-        this.gallery_form.article_img = reader.result;
-      };
-      reader.readAsDataURL(file);
-    },
     newModal() {
       this.form.reset();
       $("#addNew").modal("show");
@@ -212,11 +166,6 @@ export default {
       this.form.reset();
       $("#addNew").modal("show");
       this.form.fill(article);
-    },
-    uploadGallery(article) {
-      this.gallery_form.reset();
-      $("#addgallery").modal("show");
-      this.gallery_form.fill(article);
     },
     deleteArticle(id) {
       Swal.fire({
@@ -253,22 +202,7 @@ export default {
           $("#addNew").modal("hide");
           Toast.fire({
             type: "success",
-            title: "Article created successfully"
-          });
-          this.$Progress.finish();
-        })
-        .catch(() => {});
-    },
-    uploadGallery() {
-      this.$Progress.start();
-      this.gallery_form
-        .post("/api/sc_admin/post/article/gallery")
-        .then(() => {
-          Fire.$emit("AfterCreate");
-          $("#addgallery").modal("hide");
-          Toast.fire({
-            type: "success",
-            title: "Article Gallery added successfully"
+            title: "User created successfully"
           });
           this.$Progress.finish();
         })
