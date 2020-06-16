@@ -38,7 +38,7 @@
                   icon="delete"
                 ></vs-button>
                 <vs-button @click="editModal(article)" color="primary" icon="edit"></vs-button>
-                <vs-button @click="uploadGallery(article)" color="warning">Gallery</vs-button>
+                <vs-button @click="uploadGallery(article)" color="warning" icon="edit">Gallery</vs-button>
               </vs-row>
             </div>
           </vs-card>

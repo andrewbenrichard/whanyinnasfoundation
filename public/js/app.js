@@ -63378,7 +63378,7 @@ var render = function() {
                             _c(
                               "vs-button",
                               {
-                                attrs: { color: "warning" },
+                                attrs: { color: "warning", icon: "edit" },
                                 on: {
                                   click: function($event) {
                                     return _vm.uploadGallery(article)
