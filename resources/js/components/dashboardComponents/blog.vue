@@ -262,7 +262,7 @@ export default {
     createGallery() {
       this.$Progress.start();
       this.gallery_form
-        .post("/api/sc_admin/post/article/gallery")
+        .post("/api/sc_admin/post/articles/gallery")
         .then(() => {
           Fire.$emit("AfterCreate");
           $("#addgallery").modal("hide");

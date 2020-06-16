@@ -2448,7 +2448,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       var _this6 = this;
 
       this.$Progress.start();
-      this.gallery_form.post("/api/sc_admin/post/article/gallery").then(function () {
+      this.gallery_form.post("/api/sc_admin/post/articles/gallery").then(function () {
         Fire.$emit("AfterCreate");
         $("#addgallery").modal("hide");
         Toast.fire({
