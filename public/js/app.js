@@ -2340,7 +2340,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         article_img: ""
       }),
       gallery_form: new Form({
-        article_id: "",
+        id: "",
         article_img: ""
       })
     };
@@ -63583,7 +63583,28 @@ var render = function() {
                   [
                     _c("div", { staticClass: "modal-body" }, [
                       _c("input", {
-                        attrs: { type: "hidden", name: "article_id" }
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.gallery_form.id,
+                            expression: "gallery_form.id"
+                          }
+                        ],
+                        attrs: { type: "hidden", name: "article_id" },
+                        domProps: { value: _vm.gallery_form.id },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.gallery_form,
+                              "id",
+                              $event.target.value
+                            )
+                          }
+                        }
                       }),
                       _vm._v(" "),
                       _c(
@@ -63596,7 +63617,10 @@ var render = function() {
                           }),
                           _vm._v(" "),
                           _c("has-error", {
-                            attrs: { form: _vm.form, field: "article_img" }
+                            attrs: {
+                              form: _vm.gallery_form,
+                              field: "article_img"
+                            }
                           })
                         ],
                         1

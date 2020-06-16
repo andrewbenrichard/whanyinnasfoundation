@@ -125,10 +125,10 @@
           </div>
           <form @submit.prevent="createGallery">
             <div class="modal-body">
-              <input type="hidden" name="article_id" />
+              <input type="hidden" v-model="gallery_form.id" name="article_id" />
               <div class="form-group">
                 <input name="article_img" @change="CreateGalleryImage" type="file" />
-                <has-error :form="form" field="article_img"></has-error>
+                <has-error :form="gallery_form" field="article_img"></has-error>
               </div>
             </div>
             <div class="modal-footer">
@@ -160,7 +160,7 @@ export default {
         article_img: ""
       }),
       gallery_form: new Form({
-        article_id: "",
+        id: "",
         article_img: ""
       })
     };
