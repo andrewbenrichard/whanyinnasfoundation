@@ -230,7 +230,7 @@ class ApiController extends Controller
     {
 
        
-       $article = Article::where('id', $request->article_id)->first();
+    //    $article = Article::where('id', $request->article_id)->first();
 
 
         if($request->article_gallery_img){
@@ -246,7 +246,7 @@ class ApiController extends Controller
             ]);
         }
       
-        return response()->json($article);
+        return response()->json($images);
     }
 
     
