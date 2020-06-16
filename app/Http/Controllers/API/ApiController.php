@@ -243,7 +243,7 @@ class ApiController extends Controller
             \Image::make($request->article_img)->save(public_path('assets/img/gallery/').$name);
             
             $images = ArticleGallery::create([
-                'article_id' => $request['article_id'],
+                'article_id' => $request['id'],
                 'article_img' => $name,
             ]);
         }
