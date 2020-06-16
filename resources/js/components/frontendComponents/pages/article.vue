@@ -56,7 +56,17 @@
             </div>
             <div class="row">
               <div class="col-md-4" v-for="gallery in article_gallery" :key="gallery.id">
-                <img :src="'/public/assets/img/gallery/' + gallery.article_img" class="img" alt />
+                <div class="single-gallery-box">
+                  <img :src="'/public/assets/img/gallery/' + gallery.article_img" alt="image" />
+
+                  <a
+                    :href="'/public/assets/img/gallery/'+ gallery.article_img"
+                    class="gallery-btn"
+                    data-imagelightbox="popup-btn"
+                  >
+                    <i class="flaticon-search"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
