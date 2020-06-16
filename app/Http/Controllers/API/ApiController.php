@@ -91,7 +91,8 @@ class ApiController extends Controller
     }
     public function ArticleGallery($slug)
     {
-        $gallery = ArticleGallery::where('article_id', '=', $slug)->get();
+        $article = Article::where('slug', '=', $slug)->first();
+        $gallery = ArticleGallery::where('article_id', '=', $article->id)->get();
         
 
         $galleries[] =array(

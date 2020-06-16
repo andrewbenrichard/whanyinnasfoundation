@@ -2348,7 +2348,7 @@ __webpack_require__.r(__webpack_exports__);
     loadArticleGallery: function loadArticleGallery() {
       var _this2 = this;
 
-      axios.get("/api/sc_admin/single/article/gallery" + this.$route.params.slug).then(function (_ref2) {
+      axios.get("/api/sc_admin/single/article/gallery/" + this.$route.params.slug).then(function (_ref2) {
         var data = _ref2.data;
         return _this2.article_gallery = data;
       });

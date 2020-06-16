@@ -147,7 +147,7 @@ export default {
     },
     loadArticleGallery() {
       axios
-        .get("/api/sc_admin/single/article/gallery" + this.$route.params.slug)
+        .get("/api/sc_admin/single/article/gallery/" + this.$route.params.slug)
         .then(({ data }) => (this.article_gallery = data));
     },
     loadTopArticle() {
