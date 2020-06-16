@@ -54,6 +54,11 @@
                 <p>{{ article.article_body }}</p>
               </div>
             </div>
+            <div class="row">
+              <div class="col-md-4" v-for="gallery in article_gallery" :key="gallery.id">
+                <img :src="'/public/assets/img/gallery/' + gallery.article_img" class="img" alt />
+              </div>
+            </div>
           </div>
 
           <div class="col-lg-4 col-md-12">
