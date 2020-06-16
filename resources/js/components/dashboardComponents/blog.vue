@@ -161,7 +161,7 @@ export default {
       }),
       gallery_form: new Form({
         article_id: "",
-        article_gallery_img: ""
+        article_img: ""
       })
     };
   },

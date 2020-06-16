@@ -2341,7 +2341,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       }),
       gallery_form: new Form({
         article_id: "",
-        article_gallery_img: ""
+        article_img: ""
       })
     };
   },
