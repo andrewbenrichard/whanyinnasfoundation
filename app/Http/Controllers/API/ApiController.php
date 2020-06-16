@@ -233,22 +233,22 @@ class ApiController extends Controller
     //    $article = Article::where('id', $request->article_id)->first();
 
 
-    echo $request->article_img;
+    // echo $request->article_img;
 
-        // if($request->article_img){
-        //     $name = time().'.' . explode('/', explode(':', substr($request->article_img, 0, strpos(
-        //         $request->article_img, ';'
-        //     )))[1])[1];
+        if($request->article_img){
+            $name = time().'.' . explode('/', explode(':', substr($request->article_img, 0, strpos(
+                $request->article_img, ';'
+            )))[1])[1];
 
-        //     \Image::make($request->article_img)->save(public_path('assets/img/gallery/').$name);
+            \Image::make($request->article_img)->save(public_path('assets/img/gallery/').$name);
             
-        //     $images = ArticleGallery::create([
-        //         'article_id' => $request['article_id'],
-        //         'article_img' => $name,
-        //     ]);
-        // }
+            $images = ArticleGallery::create([
+                'article_id' => $request['article_id'],
+                'article_img' => $name,
+            ]);
+        }
       
-        // return response()->json($images);
+        return response()->json($images);
     }
 
     

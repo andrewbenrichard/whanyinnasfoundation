@@ -127,7 +127,7 @@
             <div class="modal-body">
               <input type="hidden" name="article_id" />
               <div class="form-group">
-                <input name="article_img" @change="CreateImage" type="file" />
+                <input name="article_img" @change="CreateGalleryImage" type="file" />
                 <has-error :form="form" field="article_img"></has-error>
               </div>
             </div>

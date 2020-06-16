@@ -63592,7 +63592,7 @@ var render = function() {
                         [
                           _c("input", {
                             attrs: { name: "article_img", type: "file" },
-                            on: { change: _vm.CreateImage }
+                            on: { change: _vm.CreateGalleryImage }
                           }),
                           _vm._v(" "),
                           _c("has-error", {
