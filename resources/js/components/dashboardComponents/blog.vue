@@ -37,7 +37,7 @@
                   color="danger"
                   icon="delete"
                 ></vs-button>
-                <!-- <vs-button @click="editModal(article)" color="primary" icon="edit"></vs-button> -->
+                <vs-button @click="editModal(article)" color="primary" icon="edit"></vs-button>
                 <vs-button @click="uploadGallery(article)" color="warning" icon="edit">Gallery</vs-button>
               </vs-row>
             </div>
@@ -123,7 +123,7 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <form @submit.prevent="uploadGallery">
+          <form @submit.prevent="createGallery">
             <div class="modal-body">
               <input type="hidden" name="article_id" />
               <div class="form-group">
@@ -259,7 +259,7 @@ export default {
         })
         .catch(() => {});
     },
-    uploadGallery() {
+    createGallery() {
       this.$Progress.start();
       this.gallery_form
         .post("/api/sc_admin/post/article/gallery")
