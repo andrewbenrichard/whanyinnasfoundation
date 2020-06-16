@@ -2311,8 +2311,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -2350,7 +2348,7 @@ __webpack_require__.r(__webpack_exports__);
     loadArticleGallery: function loadArticleGallery() {
       var _this2 = this;
 
-      axios.get("/api/sc_admin/single/article/gallery" + this.$article.id).then(function (_ref2) {
+      axios.get("/api/sc_admin/single/article/gallery" + this.$route.params.slug).then(function (_ref2) {
         var data = _ref2.data;
         return _this2.article_gallery = data;
       });
@@ -42731,7 +42729,11 @@ var render = function() {
                         _c("span", [_vm._v("Posted On:")]),
                         _vm._v(" "),
                         _c("a", { attrs: { href: "#" } }, [
-                          _vm._v(_vm._s(_vm.article.article_date))
+                          _vm._v(
+                            "\n                      " +
+                              _vm._s(_vm.article.article_date) +
+                              "\n                    "
+                          )
                         ])
                       ])
                     ])
@@ -42787,7 +42789,11 @@ var render = function() {
                             _vm._v(" "),
                             _c("div", { staticClass: "info" }, [
                               _c("time", [
-                                _vm._v(_vm._s(article_top.article_date))
+                                _vm._v(
+                                  "\n                    " +
+                                    _vm._s(article_top.article_date) +
+                                    "\n                  "
+                                )
                               ]),
                               _vm._v(" "),
                               _c(
@@ -42802,7 +42808,13 @@ var render = function() {
                                           "/article/" + article_top.article_slug
                                       }
                                     },
-                                    [_vm._v(_vm._s(article_top.article_title))]
+                                    [
+                                      _vm._v(
+                                        "\n                      " +
+                                          _vm._s(article_top.article_title) +
+                                          "\n                    "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
