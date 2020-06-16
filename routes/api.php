@@ -36,8 +36,9 @@ Route::group(['prefix'=> 'sc_admin','namespace' => 'API'], function(){
         Route::delete('delete/donation/{id}', 'ApiController@DonateDelete');
         /* articles */
         Route::get('articles', 'ApiController@articles');
-        Route::post('post/articles/gallery', 'ApiController@UploadArticlePics');
         Route::get('single/article/{slug}', 'ApiController@singleArticle');
+        Route::get('single/article/gallery/{slug}', 'ApiController@ArticleGallery');
+        Route::post('post/articles/gallery', 'ApiController@UploadArticlePics');
         Route::post('post/article', 'ApiController@ArticleStore');
         Route::delete('delete/article/{id}', 'ApiController@ArticleDelete');
         /* gallery */

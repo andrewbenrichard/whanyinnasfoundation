@@ -2298,7 +2298,8 @@ __webpack_require__.r(__webpack_exports__);
         artice_date: "",
         artice_slug: ""
       },
-      articles_top: {}
+      articles_top: {},
+      article_gallery: {}
     };
   },
   computed: {},
@@ -2311,17 +2312,26 @@ __webpack_require__.r(__webpack_exports__);
         return _this.article = data;
       });
     },
-    loadTopArticle: function loadTopArticle() {
+    loadArticleGallery: function loadArticleGallery() {
       var _this2 = this;
 
-      axios.get("/api/sc_admin/articles/").then(function (_ref2) {
+      axios.get("/api/sc_admin/single/article/gallery" + this.$article.id).then(function (_ref2) {
         var data = _ref2.data;
-        return _this2.articles_top = data;
+        return _this2.article_gallery = data;
+      });
+    },
+    loadTopArticle: function loadTopArticle() {
+      var _this3 = this;
+
+      axios.get("/api/sc_admin/articles/").then(function (_ref3) {
+        var data = _ref3.data;
+        return _this3.articles_top = data;
       });
     }
   },
   created: function created() {
     this.loadArticle();
+    this.loadArticleGallery();
     this.loadTopArticle();
   }
 });

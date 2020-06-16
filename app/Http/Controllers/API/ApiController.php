@@ -89,6 +89,18 @@ class ApiController extends Controller
        
          return response()->json($donate_json);
     }
+    public function ArticleGallery($slug)
+    {
+        $gallery = ArticleGallery::where('article_id', '=', $slug)->get();
+        
+
+        $galleries[] =array(
+            'id' => $gallery->id,
+            'article_img' => $gallery->article_img,
+            
+        );
+        return response()->json($galleries);
+    }
     public function singleArticle($slug)
     {
         $article = Article::where('slug', '=', $slug)->first();

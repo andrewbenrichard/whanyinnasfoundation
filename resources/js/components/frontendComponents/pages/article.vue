@@ -101,7 +101,8 @@ export default {
         artice_date: "",
         artice_slug: ""
       },
-      articles_top: {}
+      articles_top: {},
+      article_gallery: {}
     };
   },
   computed: {},
@@ -111,6 +112,11 @@ export default {
         .get("/api/sc_admin/single/article/" + this.$route.params.slug)
         .then(({ data }) => (this.article = data));
     },
+    loadArticleGallery() {
+      axios
+        .get("/api/sc_admin/single/article/gallery" + this.$article.id)
+        .then(({ data }) => (this.article_gallery = data));
+    },
     loadTopArticle() {
       axios
         .get("/api/sc_admin/articles/")
@@ -119,6 +125,7 @@ export default {
   },
   created() {
     this.loadArticle();
+    this.loadArticleGallery();
     this.loadTopArticle();
   }
 };
