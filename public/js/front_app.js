@@ -2316,6 +2316,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -42756,14 +42766,30 @@ var render = function() {
                     "div",
                     { key: gallery.id, staticClass: "col-md-4" },
                     [
-                      _c("img", {
-                        staticClass: "img",
-                        attrs: {
-                          src:
-                            "/public/assets/img/gallery/" + gallery.article_img,
-                          alt: ""
-                        }
-                      })
+                      _c("div", { staticClass: "single-gallery-box" }, [
+                        _c("img", {
+                          attrs: {
+                            src:
+                              "/public/assets/img/gallery/" +
+                              gallery.article_img,
+                            alt: "image"
+                          }
+                        }),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "gallery-btn",
+                            attrs: {
+                              href:
+                                "/public/assets/img/gallery/" +
+                                gallery.article_img,
+                              "data-imagelightbox": "popup-btn"
+                            }
+                          },
+                          [_c("i", { staticClass: "flaticon-search" })]
+                        )
+                      ])
                     ]
                   )
                 }),
